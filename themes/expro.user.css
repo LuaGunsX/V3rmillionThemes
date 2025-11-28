@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name         ExPro Tribute
+@author       Admin
+@description  ExPro-like theme.
+@version      20200113.21.14
+@license      CC-BY-NC-SA-4.0
+@preprocessor uso
+==/UserStyle== */
+
+@-moz-document domain("v3rm.luagunsx.xyz") {
+
+    body,
+    body[style],
+    body[style*="body_bg.png"] {
+        background-image: url("https://files.catbox.moe/aixpjy.png") !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-attachment: fixed !important;
+        background-color: transparent !important;
+    }
+
+    #logo img,
+    .logo {
+        content: url("https://files.catbox.moe/qsfqxm.png") !important;
+    }
+
+}
