@@ -1,0 +1,122 @@
+/* ==UserStyle==
+@name         v3rmGreen
+@namespace    v3rmGreen
+@author       SultanOfSwing
+@description  A classy green theme for v3rmillion.
+@homepage     https://v3rm.luagunsx.xyz/member.php?action=profile&uid=63
+@version      1.0.0 (29/11/2024)
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("v3rm.luagunsx.xyz") {
+ul.menu li a.active, td.tfoot {
+    background: #009d03!important;
+}
+
+ul.menu li ul, #footer, .panel_buttons {
+    border-top: 5px solid #00E504!important;
+}
+
+.thead {
+    background: #00c403!important;
+}
+
+.tcat, .trow_sep {
+    background: #0d3c00!important;
+}
+
+.forum_on {
+	color: #00E504!important;
+}
+
+.forum_off {
+	color:white!important;
+}
+
+#bridge, .thread_head {
+    border-bottom: 5px solid #00E504!important;
+}
+
+.pagination a, a.button:link, .postbit_buttons>a:link, a.postbit_find, button, input.button {
+    background: #00bb03!important;
+    border: 1px solid #01b103!important;
+}
+.postbit_edit, .postbit_website, .postbit_quote {
+	background: #00E504!important;
+    border: 1px solid #00E504!important;   
+} 
+
+input.textbox:focus {
+    border: 1px solid #00E504!important; 
+    box-shadow: 0 0 10px #00E504;
+}
+
+.drop_go_page {
+   background: #00a203!important;
+}
+
+.select2-container-active .select2-choice, .select2-container-active .select2-choices {
+   border: 1px solid #00E504!important;   
+}
+
+.select2-drop-active {
+   border: 1px solid #00E504!important;   
+}
+
+.cRem a:visited, .cRem a:link {
+    color: #00E504!important;
+}
+
+.buttons {
+    border: 1px solid #00E504!important;
+}
+    
+.forum active {
+    color: #00E504!important;
+}
+    
+.pm_new, .alert_new {
+    background: #00E504!important;
+}
+
+/*
+.inline_row a:visited, .inline_row a {
+    color: #00E504!important;
+}
+*/
+
+.usercp_nav_item:before {
+	color: #00E504 !important;
+}
+
+/* new: support for moderators pages! thanks to louknt for providing the css class name doe i probably could've just guessed it LOL */
+.modcp_nav_item:before {
+	color: #00E504 !important;
+}
+
+div#container span.smalltext a span strong {
+	color: #00E504 !important;
+}
+
+a.button:visited, a.button:active, a.button:hover, .postbit_buttons>a:hover, button:hover, input.button:hover {
+    background: #00E504!important;
+    border: 1px solid #00E504!important;
+}
+i.fa.fa-thumbs-o-up, i.fa.fa-thumbs-o-down, i.fa.fa-search {
+    filter: none!important;
+}
+
+#logo img {
+    content: url(https://i.ibb.co/cSLdDm33/v3rmgreen.png) !important;
+}
+
+img[src^="images/star.png"]:nth-of-type(1n) {
+  content: url("https://i.ibb.co/FvSQqM7/greenstar.png");
+}
+
+body>.warp {
+    color: #00E504!important;
+	border:1px #00E504 solid!important;
+}
+
+}
