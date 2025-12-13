@@ -1,0 +1,158 @@
+/* ==UserStyle==
+@name         V3rmillion Solfege
+@namespace    went3485iwgp4gj3o4wg349we8d
+@author       Admin@v3rm.luagunsx.xyz
+@description  Inspired by v3rm.net's Solfege theme.
+@version      20251213.14.10
+@license      CC0-1.0
+@preprocessor uso
+==/UserStyle== */
+@-moz-document url-prefix("https://v3rm.luagunsx.xyz/") {
+#logo img, .logo {
+	content: url(https://files.catbox.moe/0ek2ko.png) !important;
+}
+
+.pm_new, .alert_new, ul.menu li a.active {
+	background: #1c1c3d !important;
+}
+
+#bridge {
+	border-bottom: 5px solid #1c1c3d;
+}
+
+ul.menu li ul, .panel_buttons {
+	border-top: 5px solid #1c1c3d;
+}
+
+.pagination .pagination_current {
+	background: #1c1c3d;
+	border: 1px solid #4e00de;
+	border-radius: 2px;
+}
+
+.pagination a {
+	background: #0b0c36;
+	border: 1px solid #0b0c36;
+}
+
+.pagination a:hover {
+	transition: background 0.2s ease, border 0.2s ease;
+	background: #202020;
+	border: 1px solid #202020;
+}
+
+.thead {
+	background: #1c1c3d;
+}
+
+.popup_menu .popup_item:hover {
+    color: #1c1c3d;
+}
+
+.buttons:hover {
+    transition: border 0.2s ease;
+    background: #1c1c3d;
+    cursor: pointer;
+}
+
+
+.buttons {
+    border: #1c1c3d;
+}
+
+a.postbit_qdelete, a.postbit_website, a.postbit_reply_pm, a.postbit_forward_pm, a.postbit_delete_pm, a.postbit_email, a.postbit_pm, a.postbit_find, a.postbit_edit, a.postbit_quote, a.postbit_multiquote, a.postbit_multiquote_on, a.postbit_report {
+	background: #1c1c3d !important;
+	border: 1px solid #1c1c3d !important;
+}
+
+a.button.new_thread_button, button, input.button, a.button:link, a.button:visited, a.button:active {
+	background: #1c1c3d;
+	border: 1px solid #1c1c3d;
+}
+
+a.button.new_thread_button:hover, button, input.button:hover, a.button:hover {
+	transition: background 0.2s ease, border 0.2s ease;
+	background: #202020;
+	border: 1px solid #202020;
+}
+
+
+.tfoot {
+	background: #1c1c3d;
+}
+
+.usercp_nav_item:before {
+    color: #1c1c3d;
+}
+
+.thead input.textbox, .thead select {
+    border: #1c1c3d;
+}
+
+ul.menu li a:hover, .panel_buttons a:hover, ul.menu li ul li a:hover {
+	transition: background 0.5s ease;
+	background: #202020;
+}
+
+.thread_head {
+	border-bottom: 5px solid #1c1c3d !important;
+}
+
+#footer {
+	border-top: 5px solid #1c1c3d;
+}
+
+.forum_on {
+	color: #1c1c3d;
+}
+
+.forum_off {
+	color: #1c1c3d;
+}
+
+.cRem a:visited, .cRem a:link {
+	color: #1c1c3d !important;
+}
+
+.inline_row a:visited, .inline_row a {
+	color: #1c1c3d !important;
+}
+
+input.textbox:focus {
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #1c1c3d;
+    box-shadow: 0 0 10px #1c1c3d;
+}
+
+form #message:focus {
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #1c1c3d;
+    box-shadow: 0 0 10px #1c1c3d;
+}
+
+div#container span.smalltext a span strong {
+	color: #1c1c3d !important;
+}
+}
+
+@-moz-document url("https://v3rm.luagunsx.xyz") {
+.wrap {
+	border: 1px solid #1c1c3d;
+}
+
+.wrap a {
+	color: #1c1c3d;
+}
+
+.footer {
+	background-color: #1c1c3d;
+}
+
+.footer a {
+    color: #000000;
+}
+.footer a:hover {
+    transition: color 0.1s ease;
+    color: #202020;
+}
+}
